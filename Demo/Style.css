@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #b86464;
+    color: #fff;
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    background-color: #fcad03;
+    border: 2px solid brown;
+    border-radius: 30%;
+    color: black;
+    padding: 5px 10px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(255, 115, 29, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(255, 115, 29, 0);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+nav ul li a :hover{
+    background-color: #19ba31;
+    color: #c40b0b;
+    border-radius: 5px;
+}
